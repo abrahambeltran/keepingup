@@ -1,0 +1,107 @@
+:root{
+    --mainColor: #F5EBE6;
+    --secondaryColor: #FF2853;
+}
+
+body{
+    background-color: white;
+    margin: 0;
+    margin-top: 0;
+}
+
+.navBar{
+    display: flex;
+    flex-flow: row nowrap;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+    top: 0px;
+    padding: 5px 0 5px 0;
+    width: 100%;
+    background-color: var(--mainColor);
+}
+
+.navBar h1{
+    display: flex;
+    align-items: flex-start;
+    flex-shrink: 1;
+    margin: 0;
+	line-height: 2;
+	font-size: 20px;
+    color: var(--secondaryColor);
+}
+
+.navBar #login{
+    color: var(--secondaryColor);
+    background-color: var(--mainColor);
+    border: 1px solid var(--secondaryColor);
+    border-radius: 5px;
+    padding: .5rem 1rem;
+    font-size: 14px;
+    line-height: 1;
+    text-decoration: none;
+    cursor: pointer;
+    align-items: flex-end;
+}
+
+.navBar #signup{
+    color: var(--mainColor);
+    background-color: var(--secondaryColor);
+    border: 1px solid var(--mainColor);
+    border-radius: 5px;
+    padding: .5rem 1rem;
+    font-size: 14px;
+    line-height: 1;
+    text-decoration: none;
+    cursor: pointer;
+    align-items: flex-end;
+}
+
+.landingText{
+    max-width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.landingText h1{
+    font-size: 2em;;
+    margin: 0.65em 0;
+}
+
+.landingText p{
+    margin: 0 0 1.2em;
+    line-height: 1.2em;
+}
+
+.landingText h2{
+    line-height: 1.25;
+    color: #383838;
+}
+
+.textDivision{
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+}
+
+hr{
+    background-color: #383838;
+    border: 10px;
+    height: 2px;
+    margin-bottom: 1.5em;
+    box-sizing: content-box;
+}
+
+ul li{
+    margin: 0px -15px 0.3em;
+}
+
+@media screen and (max-width: 640px) {
+	.landingText {
+		padding: 0 5%
+	}
+	h5 {
+	font-size: 3.5em;
+	margin: 0.67em 0;
+	}
+}
