@@ -12,24 +12,35 @@ body{
 .navBar{
     display: flex;
     flex-flow: row nowrap;
-    position: relative;
+    position: sticky;
     justify-content: center;
-    align-items: center;
-    align-content: space-between;
     top: 0px;
     padding: 5px 0 5px 0;
     width: 100%;
     background-color: var(--mainColor);
+    box-shadow: 1px 1px 2px gray;
+}
+
+.title{
+    display:flex;
+    position: relative;
+    justify-content: center;
 }
 
 .navBar h1{
     display: flex;
-    align-items: flex-start;
+    align-items: center;
+    justify-content: center;
     flex-shrink: 1;
     margin: 0;
 	line-height: 2;
 	font-size: 20px;
     color: var(--secondaryColor);
+}
+
+.registerButtons{
+    align-self: center;
+    justify-self: flex-end;
 }
 
 .navBar #login{
@@ -42,7 +53,7 @@ body{
     line-height: 1;
     text-decoration: none;
     cursor: pointer;
-    align-items: flex-end;
+    justify-content: flex-end;
 }
 
 .navBar #signup{
@@ -55,7 +66,8 @@ body{
     line-height: 1;
     text-decoration: none;
     cursor: pointer;
-    align-items: flex-end;
+    justify-content: flex-end;
+    justify-self: flex-end;
 }
 
 .landingText{
