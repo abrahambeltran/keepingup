@@ -70,23 +70,29 @@ body{
     justify-self: flex-end;
 }
 
-.landingText{
+.postText{
     max-width: 550px;
     margin-left: auto;
     margin-right: auto;
 }
 
-.landingText h1{
+.postText h1{
     font-size: 2em;;
+    margin: 0.65em 0;
+    color: #f45e6d;
+}
+.postText h2{
+    font-size: 1.5em;;
     margin: 0.65em 0;
 }
 
-.landingText p{
+.postText p{
     margin: 0 0 1.2em;
     line-height: 1.2em;
 }
 
-.landingText h2{
+.postText h3{
+    font-size: 1.3em;;
     line-height: 1.25;
     color: #383838;
 }
@@ -109,7 +115,7 @@ ul li{
 }
 
 @media screen and (max-width: 640px) {
-	.landingText {
+	.postText {
 		padding: 0 5%
 	}
 	h5 {
