@@ -1,6 +1,6 @@
 # keepingup
 
-This is a blog/lifestyle website meant to track a user's status and day to day activities.\n
+This is a blog/lifestyle website meant to track a user's status and day to day activities.\
 Implementation is not complete yet but will include:
 <ul>
 <li>Sign up/Login functionality</li>
